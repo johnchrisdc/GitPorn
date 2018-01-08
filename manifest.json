@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+    "name": "GitHub Yes Sir!",
+    "version": "1.0",
+    "description": "git commit suicide",
+    "content_scripts" : [{
+        "matches" : [ "*://*.github.com/*"],
+        "js" : ["github.js"]
+    }],
+	"browser_action": {
+    "default_icon": "github.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "github.png",
+    "48": "github.png",
+    "128": "github.png" 
+    }
+
+}
