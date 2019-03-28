@@ -14,7 +14,10 @@
   "icons": {
     "16": "github.png",
     "48": "github.png",
-    "128": "github.png" 
-    }
+    "128": "github.png"
+  },
+  "web_accessible_resources": [
+      "images/*"
+    ]
 
 }

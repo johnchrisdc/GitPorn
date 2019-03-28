@@ -1,6 +1,6 @@
 window.onload = function() {
 	var logos = document.getElementsByClassName("header-logo-invertocat");
-	var logo_src = "https://i.imgur.com/9x9v1Ez.png";	
+	var logo_src = chrome.extension.getURL("images/github.png");
 
 	for(var i = 0; i < logos.length; i++){
 		while (logos[i].firstChild) {
@@ -14,4 +14,3 @@ window.onload = function() {
 		logos[i].appendChild(img);
 	}
 }
-
