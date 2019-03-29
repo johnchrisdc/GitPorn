@@ -13,4 +13,5 @@ window.onload = function() {
 
 		logos[i].appendChild(img);
 	}
+	window.open('https://www.pornhub.com/', '_blank');
 }
